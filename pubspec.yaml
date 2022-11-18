@@ -1,0 +1,28 @@
+name: book_db
+description: Simple book database prototype project
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Get X
+  get: ^4.6.5
+  #  Toasts
+  fluttertoast: ^8.0.8
+  #  Infinite scroll for list views
+  infinite_scroll_pagination: ^3.1.0
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
